@@ -1,0 +1,55 @@
+body {
+  background-color: #35393c;
+  font-size: 32px;
+  color: #63ccca;
+  font-family: "Righteous", cursive;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+#query_gify button,
+#query_gify input {
+  font-size: 24px;
+  font-family: "Righteous", cursive;
+  border-radius: 10px;
+  border: solid whitesmoke;
+}
+
+#remove_gifs {
+  color: white;
+  background-color: #397367;
+  color: white;
+}
+
+#remove_gifs:hover {
+  color: white;
+  background-color: #42858c;
+}
+
+#search {
+  color: white;
+  background-color: #63ccca;
+  color: white;
+}
+
+#search:hover {
+  color: white;
+  background-color: #5da399;
+}
+
+.gifs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.gif_div,
+.gif {
+  height: auto;
+  width: 100%;
+}
